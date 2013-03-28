@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit>
+    <php>
+        <var name="DB_DSN" value="mysql:host=localhost;dbname=ski" />
+        <var name="DB_USER" value="root" />
+        <var name="DB_PASSWD" value="sas0527" />
+        <var name="DB_DBNAME" value="ski" />
+        <var name="DB_SYNCNAME" value="ski" />
+        <var name="DB_DEBUG" value="0"/>       
+    </php>
+</phpunit>

@@ -1,0 +1,2722 @@
+<dataset>
+	<table name='Station_0_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+	</table>
+	<table name='Leg_0_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9048</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-29 18:31:00</value>
+			<value>2013-03-29 21:56:00</value>
+		</row>
+	</table>
+	<table name='Station_0_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Paris Austerlitz</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Chambery-Challes-E</value>
+		</row>
+	</table>
+	<table name='Leg_0_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>NZ 5705</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-29 23:12:00</value>
+			<value>2013-03-30 05:09:00</value>
+		</row>
+	</table>
+	<table name='Station_0_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Chambery-Challes-E</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_0_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>RE 17503</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 05:38:00</value>
+			<value>2013-03-30 06:27:00</value>
+		</row>
+	</table>
+	<table name='Station_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Paris Austerlitz</value>
+		</row>
+		<row>
+			<value>5</value>
+			<value>Chambery-Challes-E</value>
+		</row>
+	</table>
+	<table name='Leg_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9048</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-29 18:31:00</value>
+			<value>2013-03-29 21:56:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>NZ 5705</value>
+			<value>4</value>
+			<value>5</value>
+			<value>2013-03-29 23:12:00</value>
+			<value>2013-03-30 05:09:00</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>RE 17503</value>
+			<value>5</value>
+			<value>2</value>
+			<value>2013-03-30 05:38:00</value>
+			<value>2013-03-30 06:27:00</value>
+		</row>
+	</table>
+	<table name='Route_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (18:31 29/03/2013 - 06:27 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_0'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2</value>
+		</row>
+	</table>
+	<table name='Station_1_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+	</table>
+	<table name='Leg_1_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9050</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-29 19:01:00</value>
+			<value>2013-03-29 22:23:00</value>
+		</row>
+	</table>
+	<table name='Station_1_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Paris Austerlitz</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Chambery-Challes-E</value>
+		</row>
+	</table>
+	<table name='Leg_1_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>NZ 5705</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-29 23:12:00</value>
+			<value>2013-03-30 05:09:00</value>
+		</row>
+	</table>
+	<table name='Station_1_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Chambery-Challes-E</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_1_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>RE 17503</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 05:38:00</value>
+			<value>2013-03-30 06:27:00</value>
+		</row>
+	</table>
+	<table name='Station_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Paris Austerlitz</value>
+		</row>
+		<row>
+			<value>5</value>
+			<value>Chambery-Challes-E</value>
+		</row>
+	</table>
+	<table name='Leg_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9050</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-29 19:01:00</value>
+			<value>2013-03-29 22:23:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>NZ 5705</value>
+			<value>4</value>
+			<value>5</value>
+			<value>2013-03-29 23:12:00</value>
+			<value>2013-03-30 05:09:00</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>RE 17503</value>
+			<value>5</value>
+			<value>2</value>
+			<value>2013-03-30 05:38:00</value>
+			<value>2013-03-30 06:27:00</value>
+		</row>
+	</table>
+	<table name='Route_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (19:01 29/03/2013 - 06:27 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_1'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2</value>
+		</row>
+	</table>
+	<table name='Station_2_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+	</table>
+	<table name='Leg_2_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9054</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-29 20:01:00</value>
+			<value>2013-03-29 23:23:00</value>
+		</row>
+	</table>
+	<table name='Station_2_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_2_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>TGV 6905</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 07:37:00</value>
+			<value>2013-03-30 10:40:00</value>
+		</row>
+	</table>
+	<table name='Station_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+	</table>
+	<table name='Leg_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9054</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-29 20:01:00</value>
+			<value>2013-03-29 23:23:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>TGV 6905</value>
+			<value>4</value>
+			<value>2</value>
+			<value>2013-03-30 07:37:00</value>
+			<value>2013-03-30 10:40:00</value>
+		</row>
+	</table>
+	<table name='Route_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (20:01 29/03/2013 - 10:40 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_2'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+	</table>
+	<table name='Station_3_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Moutiers-Salins-Brides-les-Bains</value>
+		</row>
+	</table>
+	<table name='Leg_3_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9096</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-29 20:31:00</value>
+			<value>2013-03-30 05:51:00</value>
+		</row>
+	</table>
+	<table name='Station_3_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Moutiers-Salins-Brides-les-Bains</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Chambery-Challes-E</value>
+		</row>
+	</table>
+	<table name='Leg_3_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>RE 83254</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 06:48:00</value>
+			<value>2013-03-30 07:58:00</value>
+		</row>
+	</table>
+	<table name='Station_3_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Chambery-Challes-E</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_3_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>RE 96631</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 08:20:00</value>
+			<value>2013-03-30 09:05:00</value>
+		</row>
+	</table>
+	<table name='Station_3'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Moutiers-Salins-Brides-les-Bains</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Chambery-Challes-E</value>
+		</row>
+	</table>
+	<table name='Leg_3'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9096</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-29 20:31:00</value>
+			<value>2013-03-30 05:51:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>RE 83254</value>
+			<value>3</value>
+			<value>4</value>
+			<value>2013-03-30 06:48:00</value>
+			<value>2013-03-30 07:58:00</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>RE 96631</value>
+			<value>4</value>
+			<value>2</value>
+			<value>2013-03-30 08:20:00</value>
+			<value>2013-03-30 09:05:00</value>
+		</row>
+	</table>
+	<table name='Route_3'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (20:31 29/03/2013 - 09:05 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_3'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2</value>
+		</row>
+	</table>
+	<table name='Station_4_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+	</table>
+	<table name='Leg_4_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9002</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 06:18:00</value>
+			<value>2013-03-30 09:53:00</value>
+		</row>
+	</table>
+	<table name='Station_4_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Lyon Part Dieu</value>
+		</row>
+	</table>
+	<table name='Leg_4_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>TGV 6611</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 10:58:00</value>
+			<value>2013-03-30 12:56:00</value>
+		</row>
+	</table>
+	<table name='Station_4_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Lyon Part Dieu</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_4_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>RE 17619</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 13:14:00</value>
+			<value>2013-03-30 14:37:00</value>
+		</row>
+	</table>
+	<table name='Station_4'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+		<row>
+			<value>5</value>
+			<value>Lyon Part Dieu</value>
+		</row>
+	</table>
+	<table name='Leg_4'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9002</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 06:18:00</value>
+			<value>2013-03-30 09:53:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>TGV 6611</value>
+			<value>4</value>
+			<value>5</value>
+			<value>2013-03-30 10:58:00</value>
+			<value>2013-03-30 12:56:00</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>RE 17619</value>
+			<value>5</value>
+			<value>2</value>
+			<value>2013-03-30 13:14:00</value>
+			<value>2013-03-30 14:37:00</value>
+		</row>
+	</table>
+	<table name='Route_4'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (06:18 - 14:37 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_4'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2</value>
+		</row>
+	</table>
+	<table name='Station_5_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Lille Europe Eurostar</value>
+		</row>
+	</table>
+	<table name='Leg_5_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9110</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 06:57:00</value>
+			<value>2013-03-30 09:26:00</value>
+		</row>
+	</table>
+	<table name='Station_5_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Lille Europe</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Lyon Part Dieu</value>
+		</row>
+	</table>
+	<table name='Leg_5_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>TGV 5121</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 10:54:00</value>
+			<value>2013-03-30 14:00:00</value>
+		</row>
+	</table>
+	<table name='Station_5_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Lyon Part Dieu</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_5_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>RE 17621</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 14:14:00</value>
+			<value>2013-03-30 15:33:00</value>
+		</row>
+	</table>
+	<table name='Station_5'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Lille Europe Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Lille Europe</value>
+		</row>
+		<row>
+			<value>5</value>
+			<value>Lyon Part Dieu</value>
+		</row>
+	</table>
+	<table name='Leg_5'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9110</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 06:57:00</value>
+			<value>2013-03-30 09:26:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>TGV 5121</value>
+			<value>4</value>
+			<value>5</value>
+			<value>2013-03-30 10:54:00</value>
+			<value>2013-03-30 14:00:00</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>RE 17621</value>
+			<value>5</value>
+			<value>2</value>
+			<value>2013-03-30 14:14:00</value>
+			<value>2013-03-30 15:33:00</value>
+		</row>
+	</table>
+	<table name='Route_5'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (06:57 - 15:33 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_5'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2</value>
+		</row>
+	</table>
+	<table name='Station_6_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+	</table>
+	<table name='Leg_6_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9006</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 07:31:00</value>
+			<value>2013-03-30 10:53:00</value>
+		</row>
+	</table>
+	<table name='Station_6_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Lyon Part Dieu</value>
+		</row>
+	</table>
+	<table name='Leg_6_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>TGV 6613</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 11:53:00</value>
+			<value>2013-03-30 13:56:00</value>
+		</row>
+	</table>
+	<table name='Station_6_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Lyon Part Dieu</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_6_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>RE 17621</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 14:14:00</value>
+			<value>2013-03-30 15:33:00</value>
+		</row>
+	</table>
+	<table name='Station_6'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+		<row>
+			<value>5</value>
+			<value>Lyon Part Dieu</value>
+		</row>
+	</table>
+	<table name='Leg_6'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9006</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 07:31:00</value>
+			<value>2013-03-30 10:53:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>TGV 6613</value>
+			<value>4</value>
+			<value>5</value>
+			<value>2013-03-30 11:53:00</value>
+			<value>2013-03-30 13:56:00</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>RE 17621</value>
+			<value>5</value>
+			<value>2</value>
+			<value>2013-03-30 14:14:00</value>
+			<value>2013-03-30 15:33:00</value>
+		</row>
+	</table>
+	<table name='Route_6'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (07:31 - 15:33 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_6'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2</value>
+		</row>
+	</table>
+	<table name='Station_7_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+	</table>
+	<table name='Leg_7_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9006</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 07:31:00</value>
+			<value>2013-03-30 10:53:00</value>
+		</row>
+	</table>
+	<table name='Station_7_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_7_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>TGV 6917</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 12:41:00</value>
+			<value>2013-03-30 15:37:00</value>
+		</row>
+	</table>
+	<table name='Station_7'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+	</table>
+	<table name='Leg_7'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9006</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 07:31:00</value>
+			<value>2013-03-30 10:53:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>TGV 6917</value>
+			<value>4</value>
+			<value>2</value>
+			<value>2013-03-30 12:41:00</value>
+			<value>2013-03-30 15:37:00</value>
+		</row>
+	</table>
+	<table name='Route_7'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (07:31 - 15:37 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_7'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+	</table>
+	<table name='Station_8_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+	</table>
+	<table name='Leg_8_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9010</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 08:25:00</value>
+			<value>2013-03-30 11:56:00</value>
+		</row>
+	</table>
+	<table name='Station_8_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_8_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>TGV 6917</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 12:41:00</value>
+			<value>2013-03-30 15:37:00</value>
+		</row>
+	</table>
+	<table name='Station_8'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+	</table>
+	<table name='Leg_8'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9010</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 08:25:00</value>
+			<value>2013-03-30 11:56:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>TGV 6917</value>
+			<value>4</value>
+			<value>2</value>
+			<value>2013-03-30 12:41:00</value>
+			<value>2013-03-30 15:37:00</value>
+		</row>
+	</table>
+	<table name='Route_8'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (08:25 - 15:37 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_8'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+	</table>
+	<table name='Station_9_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+	</table>
+	<table name='Leg_9_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9014</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 09:31:00</value>
+			<value>2013-03-30 12:59:00</value>
+		</row>
+	</table>
+	<table name='Station_9_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_9_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>TGV 6919</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 15:37:00</value>
+			<value>2013-03-30 18:40:00</value>
+		</row>
+	</table>
+	<table name='Station_9'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+	</table>
+	<table name='Leg_9'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9014</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 09:31:00</value>
+			<value>2013-03-30 12:59:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>TGV 6919</value>
+			<value>4</value>
+			<value>2</value>
+			<value>2013-03-30 15:37:00</value>
+			<value>2013-03-30 18:40:00</value>
+		</row>
+	</table>
+	<table name='Route_9'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (09:31 - 18:40 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_9'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+	</table>
+	<table name='Station_10_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Marne la Vallée Eurostar</value>
+		</row>
+	</table>
+	<table name='Leg_10_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9074</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 10:17:00</value>
+			<value>2013-03-30 13:57:00</value>
+		</row>
+	</table>
+	<table name='Station_10_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Marne la Vallée-Chessy</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Lyon Part Dieu</value>
+		</row>
+	</table>
+	<table name='Leg_10_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>TGV 5028</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 14:11:00</value>
+			<value>2013-03-30 16:00:00</value>
+		</row>
+	</table>
+	<table name='Station_10_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Lyon Part Dieu</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_10_2'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>RE 17625</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 16:14:00</value>
+			<value>2013-03-30 17:33:00</value>
+		</row>
+	</table>
+	<table name='Station_10'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Marne la Vallée Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Marne la Vallée-Chessy</value>
+		</row>
+		<row>
+			<value>5</value>
+			<value>Lyon Part Dieu</value>
+		</row>
+	</table>
+	<table name='Leg_10'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9074</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 10:17:00</value>
+			<value>2013-03-30 13:57:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>TGV 5028</value>
+			<value>4</value>
+			<value>5</value>
+			<value>2013-03-30 14:11:00</value>
+			<value>2013-03-30 16:00:00</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>RE 17625</value>
+			<value>5</value>
+			<value>2</value>
+			<value>2013-03-30 16:14:00</value>
+			<value>2013-03-30 17:33:00</value>
+		</row>
+	</table>
+	<table name='Route_10'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (10:17 - 17:33 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_10'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2</value>
+		</row>
+	</table>
+	<table name='Station_11_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+	</table>
+	<table name='Leg_11_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9020</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 11:01:00</value>
+			<value>2013-03-30 14:26:00</value>
+		</row>
+	</table>
+	<table name='Station_11_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_11_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>TGV 6919</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 15:37:00</value>
+			<value>2013-03-30 18:40:00</value>
+		</row>
+	</table>
+	<table name='Station_11'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+	</table>
+	<table name='Leg_11'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9020</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 11:01:00</value>
+			<value>2013-03-30 14:26:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>TGV 6919</value>
+			<value>4</value>
+			<value>2</value>
+			<value>2013-03-30 15:37:00</value>
+			<value>2013-03-30 18:40:00</value>
+		</row>
+	</table>
+	<table name='Route_11'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (11:01 - 18:40 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_11'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+	</table>
+	<table name='Station_12_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+	</table>
+	<table name='Leg_12_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9022</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 11:25:00</value>
+			<value>2013-03-30 14:56:00</value>
+		</row>
+	</table>
+	<table name='Station_12_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_12_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>TGV 6919</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 15:37:00</value>
+			<value>2013-03-30 18:40:00</value>
+		</row>
+	</table>
+	<table name='Station_12'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+	</table>
+	<table name='Leg_12'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9022</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 11:25:00</value>
+			<value>2013-03-30 14:56:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>TGV 6919</value>
+			<value>4</value>
+			<value>2</value>
+			<value>2013-03-30 15:37:00</value>
+			<value>2013-03-30 18:40:00</value>
+		</row>
+	</table>
+	<table name='Route_12'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (11:25 - 18:40 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_12'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+	</table>
+	<table name='Station_13_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+	</table>
+	<table name='Leg_13_0'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9022</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 11:25:00</value>
+			<value>2013-03-30 14:56:00</value>
+		</row>
+	</table>
+	<table name='Station_13_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+	</table>
+	<table name='Leg_13_1'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>TGV 6921</value>
+			<value>1</value>
+			<value>2</value>
+			<value>2013-03-30 16:41:00</value>
+			<value>2013-03-30 19:37:00</value>
+		</row>
+	</table>
+	<table name='Station_13'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+	</table>
+	<table name='Leg_13'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9022</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 11:25:00</value>
+			<value>2013-03-30 14:56:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>TGV 6921</value>
+			<value>4</value>
+			<value>2</value>
+			<value>2013-03-30 16:41:00</value>
+			<value>2013-03-30 19:37:00</value>
+		</row>
+	</table>
+	<table name='Route_13'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (11:25 - 19:37 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		</table>
+	<table name='Journey_13'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+	</table>
+	<table name='Station'>
+		<column>ID</column>
+		<column>Name</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>Grenoble</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>Paris Nord Eurostar</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>Paris Austerlitz</value>
+		</row>
+		<row>
+			<value>5</value>
+			<value>Chambery-Challes-E</value>
+		</row>
+		<row>
+			<value>6</value>
+			<value>Paris Gare de Lyon</value>
+		</row>
+		<row>
+			<value>7</value>
+			<value>Moutiers-Salins-Brides-les-Bains</value>
+		</row>
+		<row>
+			<value>8</value>
+			<value>Lyon Part Dieu</value>
+		</row>
+		<row>
+			<value>9</value>
+			<value>Lille Europe Eurostar</value>
+		</row>
+		<row>
+			<value>10</value>
+			<value>Lille Europe</value>
+		</row>
+		<row>
+			<value>11</value>
+			<value>Marne la Vallée Eurostar</value>
+		</row>
+		<row>
+			<value>12</value>
+			<value>Marne la Vallée-Chessy</value>
+		</row>
+	</table>
+	<table name='Leg'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>
+		<row>
+			<value>1</value>
+			<value>EST 9048</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-29 18:31:00</value>
+			<value>2013-03-29 21:56:00</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>NZ 5705</value>
+			<value>4</value>
+			<value>5</value>
+			<value>2013-03-29 23:12:00</value>
+			<value>2013-03-30 05:09:00</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>RE 17503</value>
+			<value>5</value>
+			<value>2</value>
+			<value>2013-03-30 05:38:00</value>
+			<value>2013-03-30 06:27:00</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>EST 9050</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-29 19:01:00</value>
+			<value>2013-03-29 22:23:00</value>
+		</row>
+		<row>
+			<value>5</value>
+			<value>EST 9054</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-29 20:01:00</value>
+			<value>2013-03-29 23:23:00</value>
+		</row>
+		<row>
+			<value>6</value>
+			<value>TGV 6905</value>
+			<value>6</value>
+			<value>2</value>
+			<value>2013-03-30 07:37:00</value>
+			<value>2013-03-30 10:40:00</value>
+		</row>
+		<row>
+			<value>7</value>
+			<value>EST 9096</value>
+			<value>1</value>
+			<value>7</value>
+			<value>2013-03-29 20:31:00</value>
+			<value>2013-03-30 05:51:00</value>
+		</row>
+		<row>
+			<value>8</value>
+			<value>RE 83254</value>
+			<value>7</value>
+			<value>5</value>
+			<value>2013-03-30 06:48:00</value>
+			<value>2013-03-30 07:58:00</value>
+		</row>
+		<row>
+			<value>9</value>
+			<value>RE 96631</value>
+			<value>5</value>
+			<value>2</value>
+			<value>2013-03-30 08:20:00</value>
+			<value>2013-03-30 09:05:00</value>
+		</row>
+		<row>
+			<value>10</value>
+			<value>EST 9002</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 06:18:00</value>
+			<value>2013-03-30 09:53:00</value>
+		</row>
+		<row>
+			<value>11</value>
+			<value>TGV 6611</value>
+			<value>6</value>
+			<value>8</value>
+			<value>2013-03-30 10:58:00</value>
+			<value>2013-03-30 12:56:00</value>
+		</row>
+		<row>
+			<value>12</value>
+			<value>RE 17619</value>
+			<value>8</value>
+			<value>2</value>
+			<value>2013-03-30 13:14:00</value>
+			<value>2013-03-30 14:37:00</value>
+		</row>
+		<row>
+			<value>13</value>
+			<value>EST 9110</value>
+			<value>1</value>
+			<value>9</value>
+			<value>2013-03-30 06:57:00</value>
+			<value>2013-03-30 09:26:00</value>
+		</row>
+		<row>
+			<value>14</value>
+			<value>TGV 5121</value>
+			<value>10</value>
+			<value>8</value>
+			<value>2013-03-30 10:54:00</value>
+			<value>2013-03-30 14:00:00</value>
+		</row>
+		<row>
+			<value>15</value>
+			<value>RE 17621</value>
+			<value>8</value>
+			<value>2</value>
+			<value>2013-03-30 14:14:00</value>
+			<value>2013-03-30 15:33:00</value>
+		</row>
+		<row>
+			<value>16</value>
+			<value>EST 9006</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 07:31:00</value>
+			<value>2013-03-30 10:53:00</value>
+		</row>
+		<row>
+			<value>17</value>
+			<value>TGV 6613</value>
+			<value>6</value>
+			<value>8</value>
+			<value>2013-03-30 11:53:00</value>
+			<value>2013-03-30 13:56:00</value>
+		</row>
+		<row>
+			<value>18</value>
+			<value>TGV 6917</value>
+			<value>6</value>
+			<value>2</value>
+			<value>2013-03-30 12:41:00</value>
+			<value>2013-03-30 15:37:00</value>
+		</row>
+		<row>
+			<value>19</value>
+			<value>EST 9010</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 08:25:00</value>
+			<value>2013-03-30 11:56:00</value>
+		</row>
+		<row>
+			<value>20</value>
+			<value>EST 9014</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 09:31:00</value>
+			<value>2013-03-30 12:59:00</value>
+		</row>
+		<row>
+			<value>21</value>
+			<value>TGV 6919</value>
+			<value>6</value>
+			<value>2</value>
+			<value>2013-03-30 15:37:00</value>
+			<value>2013-03-30 18:40:00</value>
+		</row>
+		<row>
+			<value>22</value>
+			<value>EST 9074</value>
+			<value>1</value>
+			<value>11</value>
+			<value>2013-03-30 10:17:00</value>
+			<value>2013-03-30 13:57:00</value>
+		</row>
+		<row>
+			<value>23</value>
+			<value>TGV 5028</value>
+			<value>12</value>
+			<value>8</value>
+			<value>2013-03-30 14:11:00</value>
+			<value>2013-03-30 16:00:00</value>
+		</row>
+		<row>
+			<value>24</value>
+			<value>RE 17625</value>
+			<value>8</value>
+			<value>2</value>
+			<value>2013-03-30 16:14:00</value>
+			<value>2013-03-30 17:33:00</value>
+		</row>
+		<row>
+			<value>25</value>
+			<value>EST 9020</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 11:01:00</value>
+			<value>2013-03-30 14:26:00</value>
+		</row>
+		<row>
+			<value>26</value>
+			<value>EST 9022</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2013-03-30 11:25:00</value>
+			<value>2013-03-30 14:56:00</value>
+		</row>
+		<row>
+			<value>27</value>
+			<value>TGV 6921</value>
+			<value>6</value>
+			<value>2</value>
+			<value>2013-03-30 16:41:00</value>
+			<value>2013-03-30 19:37:00</value>
+		</row>
+	</table>
+	<table name='Route'>
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<row>
+			<value>1</value>
+			<value>London St. Pancras International to Grenoble (18:31 29/03/2013 - 06:27 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>London St. Pancras International to Grenoble (19:01 29/03/2013 - 06:27 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>London St. Pancras International to Grenoble (20:01 29/03/2013 - 10:40 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>London St. Pancras International to Grenoble (20:31 29/03/2013 - 09:05 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>5</value>
+			<value>London St. Pancras International to Grenoble (06:18 - 14:37 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>6</value>
+			<value>London St. Pancras International to Grenoble (06:57 - 15:33 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>7</value>
+			<value>London St. Pancras International to Grenoble (07:31 - 15:33 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>8</value>
+			<value>London St. Pancras International to Grenoble (07:31 - 15:37 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>9</value>
+			<value>London St. Pancras International to Grenoble (08:25 - 15:37 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>10</value>
+			<value>London St. Pancras International to Grenoble (09:31 - 18:40 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>11</value>
+			<value>London St. Pancras International to Grenoble (10:17 - 17:33 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>12</value>
+			<value>London St. Pancras International to Grenoble (11:01 - 18:40 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>13</value>
+			<value>London St. Pancras International to Grenoble (11:25 - 18:40 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>14</value>
+			<value>London St. Pancras International to Grenoble (11:25 - 19:37 30/03/2013)</value>
+			<value>1</value>
+			<value>2</value>
+		</row>
+	</table>
+	<table name='Journey'>
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>
+		<row>
+			<value>1</value>
+			<value>1</value>
+			<value>1</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>1</value>
+			<value>3</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>2</value>
+			<value>4</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>5</value>
+			<value>2</value>
+			<value>2</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>6</value>
+			<value>2</value>
+			<value>3</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>7</value>
+			<value>3</value>
+			<value>5</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>8</value>
+			<value>3</value>
+			<value>6</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>9</value>
+			<value>4</value>
+			<value>7</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>10</value>
+			<value>4</value>
+			<value>8</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>11</value>
+			<value>4</value>
+			<value>9</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>12</value>
+			<value>5</value>
+			<value>10</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>13</value>
+			<value>5</value>
+			<value>11</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>14</value>
+			<value>5</value>
+			<value>12</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>15</value>
+			<value>6</value>
+			<value>13</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>16</value>
+			<value>6</value>
+			<value>14</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>17</value>
+			<value>6</value>
+			<value>15</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>18</value>
+			<value>7</value>
+			<value>16</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>19</value>
+			<value>7</value>
+			<value>17</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>20</value>
+			<value>7</value>
+			<value>15</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>21</value>
+			<value>8</value>
+			<value>16</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>22</value>
+			<value>8</value>
+			<value>18</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>23</value>
+			<value>9</value>
+			<value>19</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>24</value>
+			<value>9</value>
+			<value>18</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>25</value>
+			<value>10</value>
+			<value>20</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>26</value>
+			<value>10</value>
+			<value>21</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>27</value>
+			<value>11</value>
+			<value>22</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>28</value>
+			<value>11</value>
+			<value>23</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>29</value>
+			<value>11</value>
+			<value>24</value>
+			<value>2</value>
+		</row>
+		<row>
+			<value>30</value>
+			<value>12</value>
+			<value>25</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>31</value>
+			<value>12</value>
+			<value>21</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>32</value>
+			<value>13</value>
+			<value>26</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>33</value>
+			<value>13</value>
+			<value>21</value>
+			<value>1</value>
+		</row>
+		<row>
+			<value>34</value>
+			<value>14</value>
+			<value>26</value>
+			<value>0</value>
+		</row>
+		<row>
+			<value>35</value>
+			<value>14</value>
+			<value>27</value>
+			<value>1</value>
+		</row>
+	</table>
+</dataset>

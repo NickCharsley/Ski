@@ -1,0 +1,14 @@
+<dataset>
+	<table name="leg">
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>				 
+	</table>
+	<table name="station">
+		<column>ID</column>
+		<column>Name</column>
+	</table>
+</dataset>

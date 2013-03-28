@@ -1,0 +1,26 @@
+<dataset>
+	<table name="Route">
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>		
+	</table>
+	<table name="Journey">
+		<column>ID</column>
+		<column>RouteID</column>
+		<column>LegID</column>
+		<column>sequence</column>		
+	</table>
+	<table name="leg">
+		<column>ID</column>
+		<column>Name</column>
+		<column>FromStationID</column>
+		<column>ToStationID</column>
+		<column>StartTime</column>
+		<column>EndTime</column>				 
+	</table>
+	<table name="station">
+		<column>ID</column>
+		<column>Name</column>
+	</table>
+</dataset>
