@@ -5,6 +5,8 @@ include_once "ons_common.php";
 	$journeys=array();
 
 	resetDB();
+	krumo::disable();
+	
 	//All Empty
 /** /
 	$d = dir("C:/Users/nick/Ski");
@@ -16,21 +18,18 @@ include_once "ons_common.php";
 		}		
 	}
 	$d->close();	
-/** /	
+/**/	
 	$d = dir("C:/Users/nick/Ski/Routes");
 	print_line("Handle: " . $d->handle);
 	print_line("Path: " . $d->path);
 	while (false !== ($entry = $d->read())) {		
 		if (strpos($entry,".htm")){
-			$journeys[] = new Journeys(buildpath($d->path,$entry));
+			print_line("Parsing ".$entry);
+			$journey = new Journeys(buildpath($d->path,$entry));
+			$journey->Save();
 			//break;	
 		}		
 	}
 	$d->close();	
-/**/	
-	
-	$journey=new Journeys("C:/Users/nick/Ski/Routes/Aime-la-Plagne.htm");
-	
-	krumo($journey);
-	
+/**/		
 ?>

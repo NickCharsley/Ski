@@ -2,17 +2,13 @@
 
 include_once('ons_common.php');
 
-class GrenobleDataBaseTest extends SkiRoutesDataBase
+
+class GrenobleTest extends SkiRoutesBase
 {
-	
-	
-	
 	function FileName(){
 		return "Routes/Grenoble";		
 	}
 		
 }
-
-
 
 ?>

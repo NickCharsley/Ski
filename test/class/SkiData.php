@@ -736,7 +736,6 @@ class SkiData
 			}
 			$data.="\t</table>\n";			
 
-
 		//Close dataset	
 		$data.="</dataset>\n";			
 		file_put_contents(buildPath(dirname(dirname(__FILE__)),"testData","$route.xml"), $data);

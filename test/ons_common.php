@@ -17,6 +17,9 @@
 /************************************************************\
 *   Setup
 \************************************************************/
+	//include_once("C:/Users/nick/workspace/ONS_Common/krumo/class.krumo.php");
+	//krumo::disable() ;
+
     
     $time_start=microtime(true);
 
@@ -63,7 +66,9 @@
     $fps="/";
 
     $root="http://$system";
-    $root_path=dirname(dirname(__FILE__));//Cos in test directory
+    $root_path=dirname(dirname(__FILE__)).$fps."src";//Cos in test directory
+    $test_path=dirname(__FILE__);
+	
     $mobile=(strpos($system,"wewin")===false);
     $local=true;
     ini_set('log_errors',"on");
@@ -75,7 +80,7 @@
         or !(strpos($system,'localhost')===false)
             or !(strpos($system,'nick-xps')===false)
 				or !(strpos($system,'tdvsvr0165')===false)){				
-		$do_ini='do_nick-xps.ini';
+		$do_ini='do_Wnick-xps.ini';
 		if (strpos((isset($_SERVER["SERVER_SOFTWARE"])?$_SERVER["SERVER_SOFTWARE"]:""),"Ubuntu")===false){
         	$ips=";";
         	$fps="\\";
@@ -121,7 +126,7 @@
                             .$ips.$root_path.$fps."extensions"
                             .$ips.$root_path.$fps."database"
                             /*Test Code*/
-                            .$ips.$root_path.$fps."test".$fps."class"
+                            .$ips.$test_path.$fps."class"
                             /*Common Code*/
                             .$ips.$common_path
                             .$ips.$common_path.$fps."script"
@@ -142,7 +147,6 @@
     ini_set('error_log',$root_path."/test/php_error.log");
     ini_set('max_execution_time',30000);
     include_once("const.php");
-	krumo::disable() ;
     PEAR::setErrorHandling(PEAR_ERROR_CALLBACK, 'PEAR_ErrorToPEAR_Exception');
 /***********************************************************\
  * Database Connectivity
