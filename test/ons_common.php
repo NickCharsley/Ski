@@ -17,9 +17,8 @@
 /************************************************************\
 *   Setup
 \************************************************************/
-	//include_once("C:/Users/nick/workspace/ONS_Common/krumo/class.krumo.php");
-	//krumo::disable() ;
-
+	include_once("C:/Users/nick/workspace/ONS_Common/krumo/class.krumo.php");
+	krumo::disable();
     
     $time_start=microtime(true);
 
@@ -34,6 +33,7 @@
     elseif (isset($_SERVER["COMPUTERNAME"])){
         $system=strtolower($_SERVER["COMPUTERNAME"]);
 		//print("System = $system\n");
+		//die(__FILE__.':'.__LINE__);
 	}
     elseif (isset($_SERVER["TERM"])){
         $system=strtolower($_SERVER["TERM"]);
@@ -43,7 +43,7 @@
     else {
         $system='';
 		print_r($_SERVER);
-		die;
+		die(__FILE__.':'.__LINE__);
 	}
 
     global $web;
@@ -80,7 +80,7 @@
         or !(strpos($system,'localhost')===false)
             or !(strpos($system,'nick-xps')===false)
 				or !(strpos($system,'tdvsvr0165')===false)){				
-		$do_ini='do_Wnick-xps.ini';
+		$do_ini='do_nick-xps.ini';
 		if (strpos((isset($_SERVER["SERVER_SOFTWARE"])?$_SERVER["SERVER_SOFTWARE"]:""),"Ubuntu")===false){
         	$ips=";";
         	$fps="\\";
@@ -142,20 +142,20 @@
 *   Common Utils
 \************************************************************/    
     if ($debug) print(__FILE__."(".__LINE__.")<br/>\n");
-    include_once("script/utils.php");
+    include_once "script/utils.php";
 	krumo::disable() ;
     ini_set('error_log',$root_path."/test/php_error.log");
     ini_set('max_execution_time',30000);
-    include_once("const.php");
+    include_once "const.php";
     PEAR::setErrorHandling(PEAR_ERROR_CALLBACK, 'PEAR_ErrorToPEAR_Exception');
 /***********************************************************\
  * Database Connectivity
 \***********************************************************/
-	if (isset($_GET['do_ini'])) $do_ini="do_{$_GET['do_ini']}.ini";	
+
     if ($debug) print(__FILE__."(".__LINE__.")<br/>\n");
     if (file_exists(buildpath($root_path,"database",$do_ini))){    	
     	if ($debug) print(__FILE__."(".__LINE__.")<br/>\n");
-        include_once("database/utils.php");
+        include_once "database/utils.php";
         if ($debug) print(__FILE__."(".__LINE__.")<br/>\n");
         
         $config = parse_ini_file(buildpath($root_path,"database",$do_ini), true);
@@ -184,6 +184,7 @@
         if ($debug) print_pre($db);
 
     }
+	else if ($debug) print("Missing ".buildpath($root_path,"database",$do_ini)."?");
     if ($debug) print(__FILE__."(".__LINE__.")<br/>\n");
         
   //** Eclipse Debug Code **************************

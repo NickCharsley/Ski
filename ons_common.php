@@ -25,8 +25,8 @@
 
     if (isset($_SERVER["SERVER_NAME"]))
         $system=strtolower($_SERVER["SERVER_NAME"]);
-    elseif (isset($_ENV["COMPUTERNAME"]))
-        $system=strtolower($_ENV["COMPUTERNAME"]);
+    elseif (isset($_SERVER["COMPUTERNAME"]))
+        $system=strtolower($_SERVER["COMPUTERNAME"]);
     elseif (isset($_SERVER["TERM"]))
         $system=strtolower($_SERVER["TERM"]);
     else
@@ -94,7 +94,8 @@
 	print("<pre>");
 	print_r($_ENV);
 	print("<pre>");
-        die("System = $system\n");
+        print("System = $system\n");
+		die(__FILE__.':'.__LINE__);
     }        
     ini_set("include_path",ini_get("include_path")
                             /*Project Code*/
