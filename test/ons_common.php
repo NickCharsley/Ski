@@ -66,7 +66,7 @@
     $fps="/";
 
     $root="http://$system";
-    $root_path=dirname(dirname(__FILE__)).$fps."src";//Cos in test directory
+    $root_path=dirname(dirname(__FILE__));//Cos in test directory
     $test_path=dirname(__FILE__);
 	
     $mobile=(strpos($system,"wewin")===false);
@@ -140,10 +140,10 @@
     if ($debug) print(__FILE__."(".__LINE__.")<br/>\n");
 /************************************************************\
 *   Common Utils
-\************************************************************/
-    
+\************************************************************/    
     if ($debug) print(__FILE__."(".__LINE__.")<br/>\n");
     include_once("script/utils.php");
+	krumo::disable() ;
     ini_set('error_log',$root_path."/test/php_error.log");
     ini_set('max_execution_time',30000);
     include_once("const.php");
